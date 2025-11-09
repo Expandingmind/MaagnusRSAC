@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+  }
+  
+  body {
+    @apply bg-brand-off text-brand-black;
+    overflow-x: hidden;
+    background-image: url('/textures/speckle.svg');
+    background-repeat: repeat;
+    background-size: 200px 200px;
+  }
+  
+  /* Custom focus styles */
+  *:focus-visible {
+    @apply outline-2 outline-offset-2 outline-brand-black;
+  }
+}
+
+@layer utilities {
+  /* Custom text styles */
+  .text-body {
+    @apply text-[17px] leading-7 text-black/80;
+  }
+  
+  /* Heading styles */
+  .heading-xl {
+    @apply font-heading text-5xl md:text-7xl tracking-tight uppercase leading-none;
+  }
+  
+  .heading-lg {
+    @apply font-heading text-4xl md:text-5xl tracking-tight uppercase leading-none;
+  }
+  
+  .heading-md {
+    @apply font-heading text-3xl md:text-4xl tracking-tight uppercase leading-none;
+  }
+}
+

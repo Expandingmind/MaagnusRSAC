@@ -1,0 +1,29 @@
+<svg width="1920" height="1080" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#87CEEB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E0F6FF;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Sky -->
+  <rect width="1920" height="1080" fill="url(#skyGradient)"/>
+  
+  <!-- Ground -->
+  <rect x="0" y="700" width="1920" height="380" fill="#4A7C59"/>
+  
+  <!-- House -->
+  <rect x="600" y="400" width="720" height="400" fill="#F5F5DC"/>
+  <polygon points="500,400 960,200 1420,400" fill="#8B4513"/>
+  
+  <!-- Windows -->
+  <rect x="700" y="500" width="120" height="120" fill="#87CEEB" opacity="0.8"/>
+  <rect x="900" y="500" width="120" height="120" fill="#87CEEB" opacity="0.8"/>
+  <rect x="1100" y="500" width="120" height="120" fill="#87CEEB" opacity="0.8"/>
+  
+  <!-- Door -->
+  <rect x="900" y="620" width="120" height="180" fill="#8B4513"/>
+  
+  <!-- Text overlay -->
+  <text x="960" y="950" font-family="Arial, sans-serif" font-size="48" fill="#FFF" text-anchor="middle" opacity="0.3">Professional Pressure Washing</text>
+</svg>

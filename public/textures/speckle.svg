@@ -1,0 +1,10 @@
+<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="speckle">
+      <feTurbulence baseFrequency="0.9" numOctaves="4" result="turbulence"/>
+      <feColorMatrix in="turbulence" type="saturate" values="0"/>
+    </filter>
+  </defs>
+  <rect width="100" height="100" fill="#FCFCFC"/>
+  <rect width="100" height="100" filter="url(#speckle)" opacity="0.03"/>
+</svg>
