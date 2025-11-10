@@ -19,15 +19,15 @@ export default function HomePage() {
       
       {/* Service Teasers */}
       <ServiceTeaser
-        title="Professional AC Repair Services"
+        title="Professional AC Repair & Replacement"
         description={[
-          'When your AC fails in the heat, you need fast, reliable service. Our expert HVAC technicians diagnose and repair all AC problems, restoring your comfort quickly.',
-          'We service all major brands and models, arriving with fully-stocked service vehicles to complete most repairs in a single visit. From refrigerant leaks to compressor failures, we handle it all.',
+          'When your AC fails in the heat, you need fast, reliable service. Our expert HVAC technicians diagnose and repair all AC problems, and when replacement is needed, we provide energy-efficient options.',
+          'We service all major brands and models, arriving with fully-stocked service vehicles to complete most repairs in a single visit. From refrigerant leaks to compressor failures to complete unit replacements, we handle it all.',
           'Don\'t suffer through another hot day - our same-day service and honest assessments ensure you get back to cool comfort quickly and efficiently.'
         ]}
         images={['/images/magnuslogo.png', '/images/magnuslogo.png']}
         direction="right"
-        ctaText="Schedule AC Repair"
+        ctaText="Schedule Service"
         ctaHref="tel:7862823563"
       />
       

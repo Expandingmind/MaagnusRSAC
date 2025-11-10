@@ -13,7 +13,7 @@ export function Navbar() {
   const navItems = [
     { label: 'Home', href: '/' },
     { label: 'Services', href: '/services' },
-    { label: 'AC Repair', href: '/air-conditioning-repair' },
+    { label: 'Repair/Replacement', href: '/ac-repair-replacement' },
     { label: 'Projects', href: '/gallery' },
     { label: 'FAQs', href: '/faqs' },
     { label: 'Contact', href: '/contact' }

@@ -4,7 +4,7 @@ interface ServiceFAQ {
 }
 
 const serviceFAQs: Record<string, ServiceFAQ[]> = {
-  'air-conditioning-repair': [
+  'ac-repair-replacement': [
     {
       question: 'What are common signs my AC needs repair?',
       answer: 'Warning signs include weak airflow, warm air, unusual noises, frequent cycling, high humidity, and water leaks. Don\'t wait - early repair prevents major breakdowns.'
@@ -18,12 +18,16 @@ const serviceFAQs: Record<string, ServiceFAQ[]> = {
       answer: 'If your AC is over 10 years old, requires frequent repairs, or uses R-22 refrigerant, replacement may be your best option. We provide honest recommendations based on your specific situation.'
     },
     {
-      question: 'Why is my AC freezing up?',
-      answer: 'AC freezing is usually caused by restricted airflow (dirty filters), low refrigerant, or thermostat issues. Turn off your system and call us immediately to prevent compressor damage.'
+      question: 'What size AC unit do I need for replacement?',
+      answer: 'Proper sizing is crucial. We perform Manual J load calculations considering your home\'s size, insulation, windows, and orientation to recommend the perfect size.'
     },
     {
       question: 'Do you repair all AC brands?',
       answer: 'Yes! Our certified technicians are trained to repair all major AC brands including Carrier, Trane, Lennox, Rheem, Goodman, and more. We stock parts for most common models.'
+    },
+    {
+      question: 'How long does AC replacement take?',
+      answer: 'Most residential AC replacements are completed in one day (6-8 hours). Complex installations or ductwork modifications may require additional time.'
     }
   ],
   'air-conditioning-service': [
@@ -68,28 +72,6 @@ const serviceFAQs: Record<string, ServiceFAQ[]> = {
     {
       question: 'How long does coil cleaning take?',
       answer: 'Professional coil cleaning typically takes 1-2 hours. We use specialized cleaners and equipment to thoroughly clean without damaging delicate fins.'
-    }
-  ],
-  'ac-unit-replacement': [
-    {
-      question: 'When should I replace my AC unit?',
-      answer: 'Consider replacement if your AC is over 10-15 years old, needs frequent repairs, uses outdated R-22 refrigerant, or isn\'t performing efficiently despite maintenance.'
-    },
-    {
-      question: 'What size AC unit do I need?',
-      answer: 'Proper sizing is crucial. We perform Manual J load calculations considering your home\'s size, insulation, windows, and orientation to recommend the perfect size.'
-    },
-    {
-      question: 'How much can I save with a new energy-efficient AC?',
-      answer: 'Modern high-efficiency units can significantly reduce cooling costs. Higher SEER ratings mean greater savings. Contact us for a personalized assessment of your potential savings.'
-    },
-    {
-      question: 'How long does AC replacement take?',
-      answer: 'Most residential AC replacements are completed in one day (6-8 hours). Complex installations or ductwork modifications may require additional time.'
-    },
-    {
-      question: 'What warranties come with new AC units?',
-      answer: 'New units typically include 10-year parts warranties and 1-year labor warranties. Extended warranties and maintenance plans are available for additional protection.'
     }
   ],
   'commercial-hvac': [

@@ -26,19 +26,21 @@ export interface Service {
 
 export const services: Service[] = [
   {
-    slug: 'air-conditioning-repair',
-    name: 'Air Conditioning Repair',
+    slug: 'ac-repair-replacement',
+    name: 'A/C Unit Repair/Replacement',
     icon: 'wrench',
     image: '/images/acair.jpeg',
     heroImage: '/images/acair.jpeg',
-    summary: "Don't let a malfunctioning AC ruin your day! Our fast, professional air conditioning repair services will have your system running smoothly, restoring comfort to your space in no time.",
+    summary: "Whether you need a quick repair or a complete unit replacement, we've got you covered. Our expert technicians provide professional AC repair and replacement services to keep your home comfortable.",
     bullets: [
       'Same-day emergency repairs',
       'All AC brands and models',
+      'Professional AC unit replacement',
+      'Energy-efficient installation options',
       'Honest assessments',
       'Licensed and insured technicians'
     ],
-    ctaLabel: 'Schedule AC Repair'
+    ctaLabel: 'Schedule Service'
   },
   {
     slug: 'air-conditioning-service',
@@ -69,21 +71,6 @@ export const services: Service[] = [
       'Extended equipment life'
     ],
     ctaLabel: 'Schedule Coil Cleaning'
-  },
-  {
-    slug: 'ac-unit-replacement',
-    name: 'AC Unit Replacement',
-    icon: 'refresh',
-    image: '/images/AContheroof',
-    heroImage: '/images/AContheroof',
-    summary: 'Upgrade to a new, energy-efficient AC unit with our professional replacement services. Enjoy superior comfort and improved system efficiency.',
-    bullets: [
-      'Energy-efficient models',
-      'Professional removal and installation',
-      'Financing options available',
-      'Extended warranty options'
-    ],
-    ctaLabel: 'Contact Us'
   },
   {
     slug: 'regular-service-call',

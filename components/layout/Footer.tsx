@@ -16,8 +16,7 @@ export class Footer extends React.Component {
   
   private services = [
     { label: 'All Services', href: '/services' },
-    { label: 'AC Repair', href: '/air-conditioning-repair' },
-    { label: 'AC Installation', href: '/ac-unit-replacement' },
+    { label: 'AC Repair/Replacement', href: '/ac-repair-replacement' },
     { label: 'Maintenance Plans', href: '/preventive-maintenance' },
     { label: 'Commercial HVAC', href: '/commercial-hvac' },
     { label: 'New Construction', href: '/new-construction' }
