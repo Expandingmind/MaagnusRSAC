@@ -61,8 +61,8 @@ export const services: Service[] = [
     slug: 'coil-cleaning-service',
     name: 'Coil Cleaning Service',
     icon: 'droplet',
-    image: '/images/acair.jpeg',
-    heroImage: '/images/acair.jpeg',
+    image: '/images/coilcleaning.jpg',
+    heroImage: '/images/coilcleaning.jpg',
     summary: 'Professional coil cleaning services to maximize your AC efficiency and air quality. Clean coils mean better cooling and optimal system performance.',
     bullets: [
       'Deep cleaning of evaporator and condenser coils',

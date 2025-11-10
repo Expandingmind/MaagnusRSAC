@@ -32,7 +32,7 @@ export class Gallery extends React.Component {
     },
     {
       id: 4,
-      image: '/images/AContheroof',
+      image: '/images/coilcleaning.jpg',
       title: 'Coil Cleaning Service',
       category: 'Maintenance'
     },

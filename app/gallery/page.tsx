@@ -31,7 +31,7 @@ const projects = [
   },
   {
     id: 4,
-    image: '/images/AContheroof',
+    image: '/images/coilcleaning.jpg',
     title: 'Coil Cleaning Service',
     category: 'Maintenance',
     description: 'Professional evaporator and condenser coil cleaning'
