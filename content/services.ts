@@ -101,21 +101,6 @@ export const services: Service[] = [
     ctaLabel: 'Schedule Service'
   },
   {
-    slug: 'weekend-service-call',
-    name: 'Weekend Service Call',
-    icon: 'clock',
-    image: '/images/emergency.png',
-    heroImage: '/images/emergency.png',
-    summary: 'Weekend and after-hours service for urgent AC and heating issues. We\'re here when you need us most.',
-    bullets: [
-      'Weekend availability',
-      'After-hours service',
-      'Priority response',
-      'Emergency repairs'
-    ],
-    ctaLabel: 'Call for Weekend Service'
-  },
-  {
     slug: 'commercial-hvac',
     name: 'Commercial HVAC Services',
     icon: 'building',
@@ -159,21 +144,6 @@ export const services: Service[] = [
       'Programming assistance'
     ],
     ctaLabel: 'Upgrade Thermostat'
-  },
-  {
-    slug: 'indoor-air-quality',
-    name: 'Indoor Air Quality',
-    icon: 'shield',
-    image: '/images/water-quality.png',
-    heroImage: '/images/water-quality.png',
-    summary: 'Comprehensive indoor air quality solutions including purifiers, humidifiers, and UV lights.',
-    bullets: [
-      'Air purification systems',
-      'Humidity control',
-      'UV light installation',
-      'Air quality testing'
-    ],
-    ctaLabel: 'Improve Air Quality'
   },
   {
     slug: 'preventive-maintenance',
