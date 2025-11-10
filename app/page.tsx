@@ -38,7 +38,7 @@ export default function HomePage() {
           'Our comprehensive maintenance service includes air filter replacement, condenser coil cleaning, refrigerant level checks, and complete system optimization to keep your AC running at peak performance.',
           'Join our maintenance plan for bi-annual service visits, priority scheduling, and repair discounts - protecting your HVAC investment while ensuring year-round comfort.'
         ]}
-        images={['/images/maintenance-programs.png', '/images/commercial-2.svg']}
+        images={['/images/hvacon.jpeg', '/images/hvacroof.jpeg']}
         direction="right"
         ctaText="Join Maintenance Plan"
         ctaHref="/preventive-maintenance"

@@ -10,66 +10,66 @@ export const metadata: Metadata = {
 const projects = [
   {
     id: 1,
-    image: '/images/commercial.png',
+    image: '/images/hvacroof.jpeg',
     title: 'Commercial AC Installation',
     category: 'Commercial',
     description: 'Complete commercial HVAC system installation for office building'
   },
   {
     id: 2,
-    image: '/images/emergency.png',
+    image: '/images/acair.jpeg',
     title: 'Emergency AC Repair',
     category: 'Repair',
     description: 'Same-day emergency AC repair service'
   },
   {
     id: 3,
-    image: '/images/maintenance-programs.png',
+    image: '/images/hvacon.jpeg',
     title: 'AC Maintenance Service',
     category: 'Maintenance',
     description: 'Comprehensive bi-annual AC maintenance'
   },
   {
     id: 4,
-    image: '/images/water-quality.png',
+    image: '/images/AContheroof',
     title: 'Coil Cleaning Service',
     category: 'Maintenance',
     description: 'Professional evaporator and condenser coil cleaning'
   },
   {
     id: 5,
-    image: '/images/commercial-2.svg',
+    image: '/images/acair.jpeg',
     title: 'HVAC System Upgrade',
     category: 'Installation',
     description: 'High-efficiency AC unit replacement'
   },
   {
     id: 6,
-    image: '/images/commercial-1.svg',
+    image: '/images/hvacroof.jpeg',
     title: 'New Construction Project',
     category: 'New Construction',
     description: 'Complete HVAC installation for new residential construction'
   },
   {
     id: 7,
-    image: '/images/commercial-3.svg',
+    image: '/images/hvacon.jpeg',
     title: 'Multi-Unit Installation',
     category: 'Commercial',
     description: 'Multi-zone AC system for commercial property'
   },
   {
     id: 8,
-    image: '/images/van.jpeg',
-    title: 'Service Call',
-    category: 'Service',
-    description: 'Professional on-site AC service and diagnostics'
+    image: '/images/AContheroof',
+    title: 'Rooftop AC Unit',
+    category: 'Commercial',
+    description: 'Professional rooftop HVAC installation and service'
   },
   {
     id: 9,
-    image: '/images/team-photo.png',
-    title: 'Team Project',
-    category: 'Installation',
-    description: 'Our professional team completing AC installation'
+    image: '/images/acair.jpeg',
+    title: 'Residential AC Service',
+    category: 'Service',
+    description: 'Professional residential AC service and maintenance'
   }
 ]
 

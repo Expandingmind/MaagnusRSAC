@@ -80,7 +80,7 @@ export default function AboutPage() {
               </div>
               <div className="relative h-[400px] bg-brand-gray rounded-lg overflow-hidden">
                 <Image
-                  src="/images/team-photo.png"
+                  src="/images/hvacroof.jpeg"
                   alt="Magnus R&S A/C Team"
                   fill
                   className="object-cover"

@@ -40,8 +40,8 @@ export class WhyChooseUs extends React.Component {
             {/* Left - Image */}
             <div>
               <img 
-                src="/images/team-photo.png" 
-                alt="Magnus R&S A/C professional HVAC team"
+                src="/images/acair.jpeg" 
+                alt="Magnus R&S A/C professional HVAC technician"
                 className="rounded-xl2 shadow-card w-full object-cover"
               />
             </div>

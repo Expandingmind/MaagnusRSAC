@@ -14,37 +14,37 @@ export class Gallery extends React.Component {
   private projects: GalleryItem[] = [
     {
       id: 1,
-      image: '/images/commercial.png',
+      image: '/images/hvacroof.jpeg',
       title: 'Commercial AC Installation',
       category: 'Commercial'
     },
     {
       id: 2,
-      image: '/images/emergency.png',
+      image: '/images/acair.jpeg',
       title: 'Emergency AC Repair',
       category: 'Repair'
     },
     {
       id: 3,
-      image: '/images/maintenance-programs.png',
+      image: '/images/hvacon.jpeg',
       title: 'AC Maintenance Service',
       category: 'Maintenance'
     },
     {
       id: 4,
-      image: '/images/water-quality.png',
+      image: '/images/AContheroof',
       title: 'Coil Cleaning Service',
       category: 'Maintenance'
     },
     {
       id: 5,
-      image: '/images/commercial-2.svg',
+      image: '/images/acair.jpeg',
       title: 'HVAC System Upgrade',
       category: 'Installation'
     },
     {
       id: 6,
-      image: '/images/commercial-1.svg',
+      image: '/images/hvacroof.jpeg',
       title: 'New Construction Project',
       category: 'New Construction'
     }
