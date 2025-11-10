@@ -121,8 +121,8 @@ export const services: Service[] = [
     slug: 'thermostat-installation',
     name: 'Smart Thermostat Installation',
     icon: 'settings',
-    image: '/images/acair.jpeg',
-    heroImage: '/images/acair.jpeg',
+    image: '/images/thermostat.png',
+    heroImage: '/images/thermostat.png',
     summary: 'Upgrade to a smart thermostat for better comfort control and energy savings.',
     bullets: [
       'Smart thermostat installation',
