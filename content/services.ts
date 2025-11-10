@@ -76,8 +76,8 @@ export const services: Service[] = [
     slug: 'regular-service-call',
     name: 'Regular Service Call',
     icon: 'calendar',
-    image: '/images/hvacon.jpeg',
-    heroImage: '/images/hvacon.jpeg',
+    image: '/images/A/CIMAGE.png',
+    heroImage: '/images/A/CIMAGE.png',
     summary: 'Scheduled maintenance and service calls during regular business hours for non-emergency HVAC needs.',
     bullets: [
       'Monday-Saturday 9am-6pm',
@@ -91,8 +91,8 @@ export const services: Service[] = [
     slug: 'commercial-hvac',
     name: 'Commercial HVAC Services',
     icon: 'building',
-    image: '/images/hvacroof.jpeg',
-    heroImage: '/images/hvacroof.jpeg',
+    image: '/images/commercialhvac.png',
+    heroImage: '/images/commercialhvac.png',
     summary: 'Comprehensive commercial HVAC solutions for businesses, offices, and industrial facilities.',
     bullets: [
       'Commercial AC installation',
@@ -106,8 +106,8 @@ export const services: Service[] = [
     slug: 'duct-cleaning',
     name: 'Duct Cleaning',
     icon: 'wind',
-    image: '/images/hvacon.jpeg',
-    heroImage: '/images/hvacon.jpeg',
+    image: '/images/ductpleaning.png',
+    heroImage: '/images/ductpleaning.png',
     summary: 'Professional duct cleaning services to improve air quality and system efficiency throughout your property.',
     bullets: [
       'Complete duct system cleaning',
